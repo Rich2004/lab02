@@ -1,17 +1,14 @@
-html{
+html {
   line-height: 1.2em;
   font-family: arial;
   font-size: 1.0;
 }
 
-
-
 body {
   background: gray;
-  
-
 }
-h1{
+
+h1 {
   text-align: center;
 }
 
@@ -19,7 +16,6 @@ h1{
   background-color: tan;
   padding: 10px;
   text-align: center;
-  
 }
 
 input[type=text] {
@@ -30,7 +26,8 @@ input[type=text] {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  text-align:left;
+  font-size: .80em;
+  font-weight: light;
 }
 
 input[type=submit] {
@@ -42,7 +39,6 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  
 }
 
 input[type=submit]:hover {
@@ -50,28 +46,26 @@ input[type=submit]:hover {
 }
 
 label {
-
   font-weight: bold;
   text-transform: uppercase;
 }
 
 @media screen and (min-width: 600px) {
   body {
-    background-color:lightgray;
+    background-color: lightgray;
   }
   .wrapper {
     width: 40%;
     margin: auto;
     text-align: left;
-}
-  input[type=text]{
+  }
+  input[type=text] {
     border: 1px solid black;
   }
-  input[type=submit]{
-    width:20%;
-    margin:auto;
-    border:1px solid black;
+  input[type=submit] {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
   }
 }
-
-
